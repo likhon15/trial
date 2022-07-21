@@ -57,11 +57,7 @@ body{
   width: 100%;
 }
 
-.img-main img{
-  margin-top: 66px;
-  height: 600px;
-  width: 100%;
-}
+
 .one{
   border-radius: 10px;
   background-color: #161616;
@@ -91,6 +87,15 @@ body{
 .lll img{
   width: 100%;
 }
+
+.main-main img{
+  margin-top: 41px;
+  width: 100%;
+  overflow: hidden;
+}
+.main-main{
+  overflow: hidden;
+ }
 
 .span-img img{
   height: 22px;
@@ -154,6 +159,29 @@ hr{
   border: 1px solid black;
   padding: 0px 5px;
   border-radius: 4px;
+}
+
+@keyframes sliding {
+  from{
+      background-color:rgb(255, 72, 0) ;
+      left: 0%;
+  }
+  to{
+      background-color: rgb(0, 255, 76);
+      color: white;
+  }
+  
+}
+
+.main a{
+  text-decoration: none;
+  background-color: #DD0000;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color, 0.2s;
+  color: rgb(240, 237, 237);
+  animation: sliding 2s ease-out 1s infinite alternate ;
+    animation-play-state: running;
 }
 
 .one-one a{
