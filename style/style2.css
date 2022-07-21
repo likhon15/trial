@@ -161,6 +161,10 @@ hr{
   border-radius: 4px;
 }
 
+.main{
+  width: 50%;
+}
+
 @keyframes sliding {
   from{
       background-color:rgb(255, 72, 0) ;
@@ -172,7 +176,24 @@ hr{
   }
   
 }
+.main-main{
+  display: flex;
+  align-items: center;
+  background-color: #161616;
+  height: 600px;
+  width: 80%;
+  border-radius: 15px;
+  color: white;
+  margin: 40px;
+  padding: 30px;
+  margin: 60px auto 0px auto;
+}
 
+.img-main img{
+  margin-top: 66px;
+  height: 600px;
+  width: 100%;
+}
 .main a{
   text-decoration: none;
   background-color: #DD0000;
@@ -183,6 +204,13 @@ hr{
   animation: sliding 2s ease-out 1s infinite alternate ;
     animation-play-state: running;
 }
+.main a:hover{
+  text-decoration: none;
+  background-color: white;
+  color: red;
+  padding: 10px 20px;
+}
+
 
 .one-one a{
   text-decoration: none;
